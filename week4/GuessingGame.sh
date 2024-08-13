@@ -64,7 +64,7 @@ magicNumber()
     while true; do
         read -p "Guess the magic number between 1 and 100, or type exit: " guess
         if [[ $guess -eq $magic_number ]]; then
-            printGreen "Congratulations! You found the magic number!"
+            printGreen "You win! You found the magic number!"
             printGreen "*** Thanks for playing ***"
             exit 0
         elif [[ $guess = "exit" ]]; then
