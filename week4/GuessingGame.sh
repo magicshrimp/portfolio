@@ -80,7 +80,7 @@ magicNumber()
 
 }
 
-echo -e "$CYAN *** Magic Number Guessing Game *** $NC"
+echo -e "${CYAN} *** Magic Number Guessing Game *** ${NC}"
 
 magicNumber 42
 
