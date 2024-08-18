@@ -30,6 +30,7 @@ def brute_force(password, max_length=4):
 password_file_path = "password.txt"
 password = read_password_file(password_file_path)
 
+#this if loop compares the entered password hash against the stored hash
 if password:
     result = brute_force(password, max_length=4)
     if result:
