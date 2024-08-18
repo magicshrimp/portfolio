@@ -12,7 +12,7 @@ GREY='\033[0;30m'
 ###for example, echo -e '[COLOUR] I love colour'
 
 ###variable input
-echo -e "$GREY Welcome to calculator!"
+echo -e "$CYAN Welcome to calculator!"
 echo -e "$NC Please enter your first variable: "
 read -r var_1
 echo -e "Please select your operator. $BLUE

@@ -19,11 +19,11 @@ while :
     do
 
     #Sesion 2 - this section checks the exit code variable to allow or deny access.
+    #password is 'password'
     if [ $EXIT = "1" ]
         then echo -e "$RED"; echo "****************"; exit 1
-            else echo -e "$GREY"
-                echo -e "1. Create a Folder \n2. Copy a Folder \n3. Set a password \n4. Calculator \n5. Create Week Folders \n6. Check Filenames \n7. Download a URL \n8. Exit $RED\n\n****************"
-                echo -e "$NC"
+            else
+                echo -e "${$CYAN}1. Create a Folder \n2. Copy a Folder \n3. Set a password \n4. Calculator \n5. Create Week Folders \n6. Check Filenames \n7. Download a URL \n8. Exit ${RED}\n\n****************"
     fi 
 
 read choice
